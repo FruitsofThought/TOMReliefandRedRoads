@@ -1,0 +1,11 @@
+locale: nl
+phrases:
+    scenes:
+        TOMReliefandRedRoads:
+            name: Reliëf en Wegen
+            group: Landschap
+            description: >
+                Deze kaart licht de rood geacentueerde wegen uit binnen de heuvels
+                waarbinnen veel steden gebouwd zijn.
+                Deze kaart is origineel ontworpen voor Los Angeles en Brasilia maar
+                dankzij het web, open data en Mapzen is hij nu wereldwijd beschikbaar.
