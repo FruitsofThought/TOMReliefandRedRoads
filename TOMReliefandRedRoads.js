@@ -16,7 +16,7 @@ define(['require', 'scene'],
       get path() {
         return require.toUrl("./").split('?')[0];
       }
-      get legend() {
+      get legendTemp() {
         var legend = [];
         legend['items'] = [];
         legend['items'].push({
@@ -27,7 +27,7 @@ define(['require', 'scene'],
           minzoom: 14,
           maxzoom: 22,
         });
-        return legend;
+        return Promise.resolve(legend);
       }
     };
 
